@@ -8,6 +8,7 @@ include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
 
 add_executable(sudoku sudoku_gadget.hpp
+        compare_gadget.hpp
         sudoku_snark.hpp
         sudoku_snark.cpp
         main.cpp)
