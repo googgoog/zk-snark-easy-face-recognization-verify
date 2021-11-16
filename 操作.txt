@@ -1,0 +1,9 @@
+生成密钥，其中第二个参数是密钥路径，执行完后会在该路径下生成pk_data.raw、vk_data.raw和vk_data
+./sudoku setup ./
+
+生成证明,其中第二个参数是证明者密钥路径，参数三是primary input(阈值) ，参数四是auxilary input(人脸比较值)，参数五是证明存放路径，最后会在证明存放路径下生成proof_data.raw和proof_data
+./sodoku prove pk_data.raw 90 100 ./
+
+验证证明,其中第二个参数是证明路径，参数三是验证者密钥路径，参数四是primary input(阈值) 
+./sudoku verify proof_data.raw vk_data.raw 90
+

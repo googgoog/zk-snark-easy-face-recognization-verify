@@ -1,2 +1,9 @@
 .idea/
 cmake-build-debug/
+
+/build/
+proof*
+verifier_sol*
+view*
+vk*
+
