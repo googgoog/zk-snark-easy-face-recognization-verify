@@ -2,8 +2,8 @@
 cmake-build-debug/
 
 /build/
-proof*
-verifier_sol*
-view*
-vk*
+./proof*
+./verifier_sol*
+./view_*
+./vk*
 
